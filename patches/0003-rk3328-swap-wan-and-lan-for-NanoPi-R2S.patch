@@ -22,5 +22,5 @@ index e129fd6a67..07cbdeee2b 100755
  	*)
  		ucidef_set_interface_lan 'eth0'
 -- 
-2.17.1
+2.25.1
 

@@ -22,5 +22,5 @@ index b7f42e13bb..b558563db8 100644
  VERSION_DIST:=$(call qstrip,$(CONFIG_VERSION_DIST))
  VERSION_DIST:=$(if $(VERSION_DIST),$(VERSION_DIST),OpenWrt)
 -- 
-2.17.1
+2.25.1
 

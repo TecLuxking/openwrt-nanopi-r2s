@@ -22,5 +22,5 @@ index 37baf5fd6f..558154d73a 100644
  net.netfilter.nf_conntrack_udp_timeout=60
  net.netfilter.nf_conntrack_udp_timeout_stream=180
 -- 
-2.17.1
+2.25.1
 

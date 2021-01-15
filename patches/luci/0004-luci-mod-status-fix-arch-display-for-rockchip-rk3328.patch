@@ -9,7 +9,7 @@ Signed-off-by: Chuck <fanck0605@qq.com>
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js b/modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js
-index 942b2dd56..12563ef1a 100644
+index ea8f2bb23..8083d4e1d 100644
 --- a/modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js
 +++ b/modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js
 @@ -53,7 +53,7 @@ return baseclass.extend({
@@ -22,5 +22,5 @@ index 942b2dd56..12563ef1a 100644
  			_('Kernel Version'),   boardinfo.kernel,
  			_('Local Time'),       datestr,
 -- 
-2.17.1
+2.25.1
 

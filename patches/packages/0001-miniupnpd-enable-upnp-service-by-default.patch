@@ -9,7 +9,7 @@ Signed-off-by: Chuck <fanck0605@qq.com>
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/net/miniupnpd/files/upnpd.config b/net/miniupnpd/files/upnpd.config
-index bd7c3ec40..37b81d89d 100644
+index 7c408683c..e8788ee35 100644
 --- a/net/miniupnpd/files/upnpd.config
 +++ b/net/miniupnpd/files/upnpd.config
 @@ -1,5 +1,5 @@
@@ -20,5 +20,5 @@ index bd7c3ec40..37b81d89d 100644
  	option enable_upnp	1
  	option secure_mode	1
 -- 
-2.17.1
+2.25.1
 

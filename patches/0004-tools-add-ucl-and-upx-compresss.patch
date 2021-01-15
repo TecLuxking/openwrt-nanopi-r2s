@@ -13,7 +13,7 @@ Signed-off-by: Chuck <fanck0605@qq.com>
  create mode 100644 tools/upx/Makefile
 
 diff --git a/tools/Makefile b/tools/Makefile
-index 65bec34c1b..8fc44e60fd 100644
+index 09fe340e6c..62629c9d5d 100644
 --- a/tools/Makefile
 +++ b/tools/Makefile
 @@ -25,7 +25,7 @@ tools-y += autoconf autoconf-archive automake bc bison cmake dosfstools
@@ -25,7 +25,7 @@ index 65bec34c1b..8fc44e60fd 100644
  tools-$(BUILD_B43_TOOLS) += b43-tools
  tools-$(BUILD_ISL) += isl
  tools-$(BUILD_TOOLCHAIN) += expat gmp libelf mpc mpfr
-@@ -72,6 +72,7 @@ $(curdir)/quilt/compile := $(curdir)/autoconf/compile $(curdir)/findutils/compil
+@@ -71,6 +71,7 @@ $(curdir)/quilt/compile := $(curdir)/autoconf/compile $(curdir)/findutils/compil
  $(curdir)/sdcc/compile := $(curdir)/bison/compile
  $(curdir)/squashfs/compile := $(curdir)/lzma-old/compile
  $(curdir)/squashfskit4/compile := $(curdir)/xz/compile $(curdir)/zlib/compile
@@ -132,5 +132,5 @@ index 0000000000..fbf1dfbd2e
 +
 +$(eval $(call HostBuild))
 -- 
-2.17.1
+2.25.1
 

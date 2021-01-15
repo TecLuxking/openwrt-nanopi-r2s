@@ -9,10 +9,10 @@ Signed-off-by: Chuck <fanck0605@qq.com>
  1 file changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/package/base-files/files/bin/config_generate b/package/base-files/files/bin/config_generate
-index 9e47f59c5e..e67cb64ba6 100755
+index cf656f7be5..6be199a3f2 100755
 --- a/package/base-files/files/bin/config_generate
 +++ b/package/base-files/files/bin/config_generate
-@@ -270,7 +270,8 @@ generate_static_system() {
+@@ -281,7 +281,8 @@ generate_static_system() {
  		delete system.@system[0]
  		add system system
  		set system.@system[-1].hostname='OpenWrt'
@@ -23,5 +23,5 @@ index 9e47f59c5e..e67cb64ba6 100755
  		set system.@system[-1].log_size='64'
  		set system.@system[-1].urandom_seed='0'
 -- 
-2.17.1
+2.25.1
 
